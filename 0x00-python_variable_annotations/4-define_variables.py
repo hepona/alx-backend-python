@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """define variable
 pi, a float with a value of 3.14
 i_understand_annotations, a boolean with a value of True

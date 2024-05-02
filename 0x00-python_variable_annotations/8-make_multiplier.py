@@ -6,7 +6,8 @@ from typing import Callable
 
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
-    """doc"""
+    """takes a float multiplier as argument and returns
+    a function that multiplies a float by multiplier."""
 
     def func(n: float) -> float:
         return n * multiplier

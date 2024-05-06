@@ -11,4 +11,4 @@ async def wait_n(n, max_delay):
     for _ in range(n):
         res = await asy.gather(wait_random(max_delay))
         data.append(res[0])
-    return data
+    return sorted(data)

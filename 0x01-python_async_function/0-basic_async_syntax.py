@@ -2,7 +2,6 @@
 """0. The basics of async"""
 import random
 import asyncio
-from typing import Union
 
 
 async def wait_random(max_delay=10):
